@@ -41,7 +41,7 @@ five(pineapple)
 // call your function on this array ["basin", "pit", "cheese", "bun", "river"]
 function shortWords(arrayWords)
 while (arrayWords.length < 3) {
-  arraywords.pop()
+  arraywords.push()
   console.log(arrayWords)
 }
 shortWords(["basin", "pit", "cheese", "bun", "river"])
