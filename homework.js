@@ -31,16 +31,15 @@ product(4, 689)
 // call your function on the word "pineapple" to test it
 
 function five(word) {
-  for (let counter = 0; counter < 5; counter++)
-} console.log("pineapple")
+  for word (let counter = 0; counter < 5; counter++)
+} console.log(five)
 }
-five("pineapple")
+five(pineapple)
 //Problem 4
 // write a function called shortWords that takes an array of words and then
 // returns a new array with only the words that are 3 letters long or less
 // call your function on this array ["basin", "pit", "cheese", "bun", "river"]
 function shortWords(arrayWords)
-let arrayWords = []
 while (arrayWords.length < 3) {
   arraywords.pop()
   console.log(arrayWords)
