@@ -23,6 +23,17 @@ product(4, 689)
 // remember that even numbers have a remainder of 0 when you divide them by 2
 // call your function on this array of numbers [4, 37, 18, 29, 52, 103, 22]
 
+function evens(array) {
+  let newArray = [];
+  for (let i = 0; i < array.length; i++) {
+    if (i % 2 === 0)
+      newArray.push(i)
+  }
+  console.log(newArray)
+  return newArray;
+}
+
+evens([4, 37, 18, 29, 52, 103, 22]);
 
 
 //Problem 3
@@ -31,17 +42,24 @@ product(4, 689)
 // call your function on the word "pineapple" to test it
 
 function five(word) {
-  for word (let counter = 0; counter < 5; counter++)
-} console.log(five)
+  for (let counter = 0; counter < 5; counter++) {
+    console.log(word)
+  }
 }
-five(pineapple)
+five('pineapple')
 //Problem 4
 // write a function called shortWords that takes an array of words and then
 // returns a new array with only the words that are 3 letters long or less
 // call your function on this array ["basin", "pit", "cheese", "bun", "river"]
-function shortWords(arrayWords)
-while (arrayWords.length < 3) {
-  arraywords.push()
-  console.log(arrayWords)
+function shortWords(arrayWords) {
+  let shortWords = []
+  for (let word of arrayWords) {
+    if (word.length <= 3) {
+      shortWords.push(word)
+    }
+  }
+  console.log(shortWords)
 }
+
+
 shortWords(["basin", "pit", "cheese", "bun", "river"])
